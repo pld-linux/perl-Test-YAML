@@ -7,18 +7,19 @@
 Summary:	Test::YAML - Testing Module for YAML Implementations
 Summary(pl.UTF-8):	Test::YAML - moduł testujący dla implementacji YAML-a
 Name:		perl-Test-YAML
-Version:	1.06
+Version:	1.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	92e6ea57576428095fe3c9b8e00e6f29
-URL:		http://search.cpan.org/dist/Test-YAML/
+# Source0-md5:	6fe89b0144ffb5913fc4b021a80578b4
+URL:		https://metacpan.org/release/Test-YAML
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
-BuildRequires:	perl-Test-Base >= 0.86
+BuildRequires:	perl-Test-Base >= 0.89
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
