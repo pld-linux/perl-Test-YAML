@@ -8,7 +8,7 @@ Summary:	Test::YAML - Testing Module for YAML Implementations
 Summary(pl.UTF-8):	Test::YAML - moduł testujący dla implementacji YAML-a
 Name:		perl-Test-YAML
 Version:	1.07
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
